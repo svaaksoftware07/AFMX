@@ -1,0 +1,281 @@
+
+
+.containerx {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+   
+}
+.containerx .circle {
+    height: 550px;
+    width: 500px;
+    margin: 30px auto auto;
+    padding: 26px;
+    position: relative;
+}
+.containerx .compass {
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+}
+.containerx .compass img:nth-child(1) {
+    position: absolute;
+    top: -12px;
+    left: 122px;
+    height: 344px;
+    z-index: -1;
+    transition: transform 0.5s ease;
+    pointer-events: none;
+}
+.containerx .compass img:nth-child(2) {
+    position: absolute;
+    top: 2px;
+    left: -2px;
+    width: 320px;
+    z-index: -2;
+}
+.containerx .compass img:nth-child(3) {
+    position: absolute;
+    top: 52px;
+    left: 37px;
+    width: 240px;
+    z-index: -3;
+}
+.circle .circle-part {
+    z-index: 999;
+    position: relative !important;
+    width: 119px;
+    height: 112px;
+    background-color: brown;
+    clip-path: polygon(51% 6%, 74% 7%, 98% 12%, 83% 68%, 69% 66%, 49% 65%, 30% 66%, 16% 68%, 2% 12%, 25% 7%);
+/*    display: flex;*/
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+}
+.circle-wraper1 {
+    position: relative;
+    transform: translate(135%, -5%) rotate(-2deg);
+}
+.circle-text {
+    color: var(--textColor) !important;
+    font-family: lato sans-serif;
+    font-size: 1.06em;
+    font-weight: 700;
+}
+.circle-item-text1 {
+    position: absolute;
+    top: -9px;
+    left: 186px;
+}
+.circle-item-text2 {
+    position: absolute;
+    top: 26px;
+    right: 2px;
+}
+.circle-item-text3 {
+    position: absolute;
+    top: 124px;
+    right: -49px;
+}
+.circle-item-text4 {
+    position: absolute;
+    top: 239px;
+    right: -295px;
+}
+.circle-item-text5 {
+    position: absolute;
+    top: 353px;
+    right: -148px;
+}
+.circle-item-text6 {
+    position: absolute;
+    top: 456px;
+    right: 5px;
+}
+.circle-item-text7 {
+    position: absolute;
+    top: 495.6px;
+    left: 230px;
+}
+.circle-item-text8 {
+    position: absolute;
+    top: 457px;
+    left: 15px;
+}
+.circle-item-text9 {
+    position: absolute;
+    top: 361px;
+    left: -77px;
+}
+.circle-item-text10 {
+    position: absolute;
+    top: 249px;
+    left: -195px;
+}
+.circle-item-text11 {
+    position: absolute;
+    top: 127px;
+    left: -68px;
+}
+.circle-item-text12 {
+    position: absolute;
+    top: 33px;
+    left: -85px;
+}
+.containerx .circle .circle-part img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.containerx .circle .circle-item1 {
+    transform: translate(135%, -5%) rotate(-2deg);
+}
+.containerx .circle .circle-item2 {
+    transform: translate(209%, -87%) rotate(28deg);
+}
+.containerx .circle .circle-item2:after {
+    content: "Janitorial Services";
+    color: #fff;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    visibility: hidden;
+}
+.containerx .circle .circle-item3 {
+    transform: translate(265%, -130%) rotate(58deg);
+}
+.containerx .circle .circle-item4 {
+    transform: translate(288%, -152%) rotate(88deg);
+}
+.containerx .circle .circle-item5 {
+    transform: translate(271%, -172%) rotate(118deg);
+}
+.containerx .circle .circle-item6 {
+    transform: translate(219%, -212%) rotate(148deg);
+}
+.containerx .circle .circle-item7 {
+    transform: translate(145%, -287%) rotate(178deg);
+}
+.containerx .circle .circle-item8 {
+    transform: translate(70%, -406%) rotate(208deg);
+}
+.containerx .circle .circle-item9 {
+    transform: translate(14%, -562%) rotate(238deg);
+}
+.containerx .circle .circle-item10 {
+    transform: translate(-8%, -741%) rotate(268deg);
+}
+.containerx .circle .circle-item11 {
+    transform: translate(9%, -921%) rotate(298deg);
+}
+.containerx .circle .circle-item12 {
+    transform: translate(62%, -1081%) rotate(328deg);
+}
+
+.rotate1{
+    transform: rotate(0deg) !important;
+    cursor: pointer;
+}
+
+.rotate2{
+    transform: rotate(30deg) !important;
+    cursor: pointer !important;
+}
+
+.rotate3{
+    transform: rotate(60deg) !important;
+    cursor: pointer;
+}
+
+.rotate4{
+    transform: rotate(90deg) !important;
+    cursor: pointer;
+}
+
+.rotate5{
+    transform: rotate(120deg) !important;
+    cursor: pointer;
+}
+
+.rotate6{
+    transform: rotate(150deg) !important;
+    cursor: pointer;
+}
+
+.rotate7{
+    transform: rotate(180deg) !important;
+    cursor: pointer;
+}
+
+.rotate8{
+    transform: rotate(210deg) !important;
+    cursor: pointer;
+}
+
+
+.rotate9{
+    transform: rotate(-120deg) !important;
+    cursor: pointer;
+}
+
+.rotate10{
+    transform: rotate(-90deg) !important;
+    cursor: pointer;
+}
+
+.rotate11{
+    transform: rotate(-60deg) !important;
+    cursor: pointer;
+}
+
+.rotate12{
+    transform: rotate(-30deg) !important;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+    .circle .circle-part {
+        width: 70px;
+        height: 60px;
+    }
+
+    .containerx .compass img:nth-child(2) {
+
+        width: 220px;
+    }
+
+    .containerx .compass img:nth-child(1) {
+        position: absolute;
+        top: 18px;
+        left: 88px;
+        height: 194px;
+        z-index: -1;
+        transition: transform 0.5s ease;
+        pointer-events: none;
+    }
+
+    .containerx .compass img:nth-child(3) {
+        position: absolute;
+        top: 52px;
+        left: 37px;
+        width: 140px;
+        z-index: -3;
+    }
+
+    .containerx .compass {
+        position: absolute;
+        top: 7%;
+        left: 14%;
+        transform: translate(-50%, -50%);
+    }
+
+}
