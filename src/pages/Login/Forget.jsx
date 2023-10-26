@@ -1,11 +1,13 @@
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 
 
 
 function Forget() {
     const [email,setEmail]=useState("");
+    const navigate=useNavigate()
 
     
     const submithandler= async(e)=>{
@@ -16,6 +18,7 @@ function Forget() {
             .then((response)=>{
                toast.success(response.data.message);
                console.log(response)
+               navigate("/")
                
             })
             .catch(err=>{

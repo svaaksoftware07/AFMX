@@ -8,6 +8,7 @@ function HelpingHand() {
   const data = helpingHand.find((item) => item.id === id)
 
 
+
   return (
 
     <>
@@ -18,8 +19,12 @@ function HelpingHand() {
           </div>
           <div className="col-lg-9 col-md-9 col-12 bg-white">
                 <h3 className="my-3 helping-hand-heading">{data.name}</h3>
+
             <div className="row m-0 p-0  p-lg-3 py-3">
               <div className="col-lg-6 col-md-6 col-12">
+                {data?.logo&&<div className="helpingHandLogo mb-3">
+                  <img src={data?.logo} alt="" className="img-fluid" />
+                </div>}
                 <p style={{ textAlign: "justify" }}>{data.text}</p>
               </div>
               <div className="col-lg-6 col-md-6 col-12">

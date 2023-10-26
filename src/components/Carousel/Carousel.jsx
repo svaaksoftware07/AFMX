@@ -1,7 +1,20 @@
-
 import { Link } from "react-router-dom";
 import "./Carousel.css";
+import { useEffect, useState } from "react";
 const Slider = () => {
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    const userDetails = JSON.parse(localStorage.getItem("user"));
+    if (userDetails) {
+      setUser(userDetails);
+    }
+  }, []);
+  // console.log(user.oldUser.firstname.charAt(0).toUpperCase());
+  const handleSignOut = () => {
+    localStorage.clear();
+    setUser("");
+  };
   return (
     <>
       <div className="banner">
@@ -13,13 +26,34 @@ const Slider = () => {
                 {/* The slideshow/carousel */}
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="assets/img/Banner/1.png" alt />
+                    <img src="images/Banner/chemicalShoppingCenterBanner.webp" alt/>
                   </div>
                   <div className="carousel-item">
-                    <img src="assets/img/Banner/1.png" alt />
+                    <img src="images/Banner/constructionCleaningBanner.webp"  alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="assets/img/Banner/1.png" alt />
+                    <img src="images/Banner/floorCleaningBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/geoFencingBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/handymanServicesBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/janitorialCleaningServicesBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/maidXBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/mebershipBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/priceCalculatorBanner.webp"  alt />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="images/Banner/roboticCleaningBanner.webp"  alt />
                   </div>
                 </div>
                 {/* Left and right controls/icons */}
@@ -32,11 +66,24 @@ const Slider = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="login-button">
-                <Link to="/client-login">Login</Link>
-                <Link to="/">Forgot Password</Link>
-                <Link to="/create-account">Create Account</Link>
-              </div>
+                    {user ? (
+                        <div className="login-button">
+                          <div className="profile_pic">
+                            {user.oldUser.firstname.charAt(0).toUpperCase()}
+                          </div>
+                          <h3 className="profile_name">Welcome, {user.oldUser.firstname}!</h3>
+                          <Link to="/">View Profile</Link>
+                          <button className="signout_btn" onClick={handleSignOut}>
+                            Sign Out
+                          </button>
+                        </div>
+                      ) : (
+                        <div className="login-button">
+                          <Link to="/client-login">Login</Link>
+                          <Link to="/">Forgot Password</Link>
+                          <Link to="/create-account">Create Account</Link>
+                        </div>
+                      )}
               <div className="banner-ad">
                 <a href>
                   <video width height autoPlay loop muted>

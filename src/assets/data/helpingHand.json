@@ -2,6 +2,7 @@
     {
         "name": "American Humane",
         "id": "1",
+        "logo": "./images/helpingHand/logos/americanHumane.webp",
         "image": "./images/helpingHand/american-human.jpg",
         "image2": "./images/helpingHand/american-human2.jpg",
         "text": "For more than a hundred years American Humane has been first in promoting the welfare and safety of animals and strengthening the bond between animals and people.​We are first to serve, wherever animals are in need of rescue, shelter, protection or security. Through our innovative leadership initiatives – from our “No Animals Were Harmed®” program in Hollywood to broad-based farm and conservation animal welfare certifications, to rapid response rescue and care across the country – American Humane sets the gold standard as the most visionary and effective animal welfare organization in the nation."
@@ -9,13 +10,15 @@
     {
         "name": "​​St. Jude Children’s Research Hospital",
         "id": "2",
+        "logo": "./images/helpingHand/logos/stJudeChildrenResearchHospital.webp",
         "image": "./images/helpingHand/research-hospital.jpg",
         "image2": "./images/helpingHand/research-hospital2.png",
         "text": "St. Jude Children’s Research Hospital​ The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. Consistent with the vision of our founder Danny Thomas, no child is denied treatment based on race, religion or a family's ability to pay."
     },
     {
-        "name": "​ Boys & Girls Clubs of America.​",
+        "name": "​Boys & Girls Clubs of America.​",
         "id": "3",
+        "logo": "./images/helpingHand/logos/boys&GirlsClubs.webp",
         "image": "./images/helpingHand/club-of-america.png",
         "image2": "./images/helpingHand/club-of-america2.png",
         "text": " Boys & Girls Clubs of America.​We never take a single approach to help kids succeed. It takes caring mentors, such as our trained Club staff. It takes a safe place, like our Clubs that are consistently there for the kids they serve. It takes innovative, quality programs designed to empower youth to excel in school and lead healthy, productive lives. We do whatever it takes to ensure all kids have a great future."
@@ -23,6 +26,7 @@
     {
         "name": "​Feed the Children​",
         "id": "4",
+        "logo": "./images/helpingHand/logos/feedChildren.webp",
         "image": "./images/helpingHand/feed-the-children.png",
         "text": "Since 1979, Feed the Children has been dedicated to helping children and families. With the support of our donors and corporate partners, we deliver food and household essentials, offer nutrition training and clean water programs, provide school supplies, and assist in times of disaster.​We believe in helping families and communities with their immediate needs while also providing the tools needed to achieve a bright future."
     },

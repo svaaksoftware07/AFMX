@@ -55,9 +55,11 @@
 }
 
 .footer-social-media ul li a i {
-  font-size: 40px;
+  font-size: 25px;
+  background: #fff;
+  padding: 5px;
 }
-
+/* 
 .youtube i {
   color: red;
 }
@@ -91,7 +93,7 @@
 
 .twitter i {
   color: dodgerblue;
-}
+} */
 
 
 #footer {
@@ -223,7 +225,7 @@
   color: #0063be;
 }
 
-#footer .footer-top .social-links a {
+/* #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #0063be;
@@ -236,7 +238,8 @@
   width: 36px;
   height: 36px;
   transition: 0.3s;
-}
+} */
+
 
 #footer .footer-top .social-links a:hover {
   background: #3b8af2;
@@ -262,6 +265,16 @@
   }
 }
 
+.copyright-bg{
+  padding: 10px 0px;
+  background-color: #0063be;
+}
+
+.copyright-bg .col-lg-6 div{
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (max-width:991px) {
 
   .footer-top {
@@ -273,9 +286,17 @@
   .footer-social-media ul {
     text-align: left;
   }
+  .footer-social-media ul li{
+    margin-bottom: 40px;
+  }
+
+  .footer-social-media ul li a{
+    padding: 3px;
+    margin-bottom: 40px;
+  }
 
   .footer-social-media ul li a i {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin: 5px 2px 20px 2px;
   }
 }

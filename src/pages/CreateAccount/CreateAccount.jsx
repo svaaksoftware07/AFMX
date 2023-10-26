@@ -8,9 +8,20 @@ import 'react-toastify/dist/ReactToastify.css';
 function CreateAccount() {
     const navigate = useNavigate()
     const [data, setData] = useState({
-        name: "",
-        email: "",
-        password: "",
+        prifix:"",
+        firstname:"",
+        middlename:"",
+        lastname:"",
+        postfix:"",
+        email:"",
+        phone:"",
+        password:"",
+        ssn:"",
+        address:"",
+        postal_code:"",
+        city:"",
+        state:"",
+        country:""
     });
     const changehandller = (e) => {
         const name = e.target.name;
@@ -20,7 +31,7 @@ function CreateAccount() {
     const submithandler = async (e) => {
         e.preventDefault()
         try {
-            const response = await axios.post('http://localhost:5000/user/signup', data)
+            const response = await axios.post('http://localhost:5000/auth/signup', data)
                 .then((response) => {
                     toast.success(response.data.message);
                     navigate("/")
@@ -48,7 +59,7 @@ function CreateAccount() {
                                     type="text"
 
                                     className='form-control mb-3 '
-                                    name='name'
+                                    name='firstname'
                                     onChange={changehandller}
                                 />
 
@@ -66,59 +77,59 @@ function CreateAccount() {
                                     name='password'
                                     onChange={changehandller}
                                 />
-                                <label htmlFor="password" className="label">SSN/EIN Number <span>*</span></label>
-                                <input id='password'
-                                    type="password"
+                                <label htmlFor="ssn" className="label">SSN Number <span>*</span></label>
+                                <input id='ssn'
+                                    type="text"
                                     className='form-control mb-3'
-                                    name='password'
+                                    name='ssn'
                                     onChange={changehandller}
                                 />
-                                 <label htmlFor="password" className="label">State <span>*</span></label>
-                                <input id='password'
-                                    type="password"
+                                 <label htmlFor="state" className="label">State <span>*</span></label>
+                                <input id='state'
+                                    type="text"
                                     className='form-control mb-3'
-                                    name='password'
+                                    name='state'
                                     onChange={changehandller}
                                 />
                             </div>
                             <div className="col-lg-6">
-                                <label htmlFor="firstName" className="label">Last Name <span>*</span></label>
-                                <input id='name'
+                                <label htmlFor="lastname" className="label">Last Name <span>*</span></label>
+                                <input id='lastname'
                                     type="text"
 
                                     className='form-control mb-3 '
-                                    name='name'
+                                    name='lastname'
                                     onChange={changehandller}
                                 />
 
-                                <label htmlFor="emailId" className="label">Mobile No.<span>*</span></label>
-                                <input id='emailId'
-                                    type="email"
+                                <label htmlFor="phone" className="label">Mobile No.<span>*</span></label>
+                                <input id='phone'
+                                    type="text"
                                     className='form-control mb-3'
-                                    name='email'
+                                    name='phone'
                                     onChange={changehandller}
                                 />
 
-                                <label htmlFor="password" className="label">Confirm Password <span>*</span></label>
-                                <input id='password'
+                                <label htmlFor="cpassword" className="label">Confirm Password <span>*</span></label>
+                                <input id='cpassword'
                                     type="password"
                                     className='form-control mb-3'
-                                    name='password'
+                                    name='cpassword'
                                     onChange={changehandller}
                                 />
                                 
-                                <label htmlFor="password" className="label">Country <span>*</span></label>
-                                <input id='password'
-                                    type="password"
+                                <label htmlFor="country" className="label">Country <span>*</span></label>
+                                <input id='country'
+                                    type="text"
                                     className='form-control mb-3'
-                                    name='password'
+                                    name='country'
                                     onChange={changehandller}
                                 />
-                                <label htmlFor="password" className="label">City <span>*</span></label>
-                                <input id='password'
-                                    type="password"
+                                <label htmlFor="country" className="label">City <span>*</span></label>
+                                <input id='city'
+                                    type="text"
                                     className='form-control mb-3'
-                                    name='password'
+                                    name='city'
                                     onChange={changehandller}
                                 />
                                

@@ -1,11 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 
 function ResetPassword() {
     const [password, setPassword] = useState("");
     const [id, setId] = useState("")
     const [token, setToken] = useState("")
+    const navigate= useNavigate()
 
     useEffect(() => {
         // Get the hash portion of the URL
@@ -23,6 +25,7 @@ function ResetPassword() {
             const response = await axios.post('http://localhost:5000/auth/passwordReset', { password, id: id })
                 .then((response) => {
                     toast.success(response?.data?.message);
+                    navigate("/")
                 })
                 .catch(err => {
                     toast.error(err?.response?.data?.message);

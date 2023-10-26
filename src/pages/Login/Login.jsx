@@ -1,12 +1,15 @@
 import { useState } from "react"
 import "./login.css"
 import { toast } from 'react-toastify';
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/featurs/authSlice";
 
 function Login({ loginType }) {
     const [formData,setFormData]=useState({email:"",password:""});
     const navigate=useNavigate()
+    const dispatch=useDispatch()
 
     const changehandler=(e)=>{
         const name=e.target.name;
@@ -15,22 +18,8 @@ function Login({ loginType }) {
     }
     const submithandler= async(e)=>{
         e.preventDefault();
-        try{
-            const response =await axios.post('http://localhost:5000/user/signin',formData)
-            .then((response)=>{
-               toast.success(response.data.message);
-                navigate("/")
-            })
-            .catch(err=>{
-                toast.error("Somthing went wrong");
-                console.log(err)
-            })
-            
-            console.log(response)
-        }catch(err){
-            return  toast.error(err.response?.data?.message);
-        }
-        console.log(formData)
+        console.log(formData,"ksandknk");
+        dispatch(login({formData,navigate,toast}))
     }
     return (
         <>
@@ -58,9 +47,6 @@ function Login({ loginType }) {
                             <button type="submit">Login</button>
                         </div>
                     </form>
-                    <div className="forget-link">
-                        <Link to="/forget-password">Forget Password</Link>
-                    </div>
                 </div>
 
             </div>

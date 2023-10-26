@@ -1,6 +1,7 @@
 // import { Link } from "react-router-dom"
 import { Link } from "react-router-dom"
 import "./footer.css"
+import data from "../../assets/data/terms&Conditions.json"
 
 function Footer() {
 
@@ -12,46 +13,11 @@ function Footer() {
           <div className="footer-links">
             <h4>Terms and Policies</h4>
             <ul>
-              <li>
+             
+             {data.map((item)=>( <li key={item.id}>
                 <i className="bx bx-chevron-right" />
-                <a href="#/new">Privacy Policy Accessiblity</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Copyright Notice </a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Site Maps</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Video Sharing Policy</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Terms of Use</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Privacy Policy</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Cookies Policy</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Trust and Safety</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Sponsor our leauge</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Dispute Resolution Agreement</a>
-              </li>
+                <Link to={`/terms-condition/${item.id}`}>{item.name}</Link>
+              </li>))}
               
             </ul>
           </div>
@@ -218,42 +184,42 @@ function Footer() {
           </div>
          
         </div>
-        <div className="container">
-          <div className="row align-items-center ">
-            <div className="col-lg-6 col-12">
 
-              <div className="footer-logo">
-              <Link to="/">
-                <img src="assets/img/service/logo3.png" />
-              </Link>
-              </div>
-            </div>
-            <div className="col-lg-6 col-12">
-              <div className="footer-social-media">
-                <ul>
-                  <li className="youtube"><a href> <i className="fab fa-youtube" /></a></li>
-                  <li className="discord"><a href> <i className="fab fa-discord" /></a></li>
-                  <li className="tiktok"><a href> <i className="fab fa-tiktok" /></a></li>
-                  <li className="snapchat"><a href> <i className="fab fa-snapchat" /></a></li>
-                  <li className="skype"><a href> <i className="fab fa-skype" /></a></li>
-                  <li className="pinterest"><a href> <i className="fab fa-pinterest" /></a></li>
-                  <li className="instagram"><a href> <i className="fab fa-instagram" /></a></li>
-                  <li className="facebook"><a href> <i className="fab fa-facebook" /></a></li>
-                  <li className="twitter"><a href> <i className="fab fa-twitter" /></a></li>
-                  <li className="linkedin"><a href> <i className="fab fa-linkedin" /></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container copyright ">
-          <div>© Copyright <strong>
-            <span>AFMX Services</span>
-          </strong>. All Rights Reserved </div>
-        </div>
+        
       </footer>
 
-
+      <div className="copyright-bg">
+       <div className="container">
+         <div className="row align-items-center">
+            <div className="col-lg-2">
+              <div className="footer-logo">
+                <img src="assets/img/service/logo3.png"/>  
+              </div> 
+            </div> 
+             <div className="col-lg-6">
+             <div>© Copyright <strong>
+            <span>AFMX Services</span>
+          </strong>. All Rights Reserved </div>
+             </div>
+             <div className="col-lg-4">
+             
+              <div className="footer-social-media">
+                <ul>
+                  <li className="youtube"><a href=""> <i className="fab fa-youtube"></i></a></li>  
+                  <li className="tiktok"><a href=""> <i className="fab fa-tiktok"></i></a></li>  
+                  <li className="snapchat"><a href=""> <i className="fab fa-snapchat"></i></a></li>  
+                  <li className="skype"><a href=""> <i className="fab fa-skype"></i></a></li>  
+                  <li className="pinterest"><a href=""> <i className="fab fa-pinterest"></i></a></li>  
+                  <li className="instagram"><a href=""> <i className="fab fa-instagram"></i></a></li>  
+                  <li className="facebook"><a href=""> <i className="fab fa-facebook"></i></a></li>  
+                  <li className="twitter"><a href=""> <i className="fab fa-twitter"></i></a></li>  
+                  <li className="linkedin"><a href=""> <i className="fab fa-linkedin"></i></a></li>  
+                </ul>   
+              </div>
+             </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
