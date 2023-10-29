@@ -36,11 +36,17 @@ function Navbar() {
   return (
     <>
       {/* {/ topbar  /} */}
-      <section id="topbar" className="d-flex align-items-center">
-        <div className="container p-0">
-          <div className="row align-items-center">
+      <section id="topbar" className="align-items-center">
+        <div className="containe p-0">
+          <div className="row align-items-center p-0 m-0">
             <div className="col-lg-12">
+            <div className="logo">
+                <Link to="/">
+                  <img src="images/logo-blue.png" />
+                </Link>
+              </div>
               <div className="ad">
+              
                 <a href="">
                   <img src="assets/img/Ad/ad.jpg" />
                   <div className="advertise_banner"></div>
@@ -53,15 +59,10 @@ function Navbar() {
               </div>
             </div>
 
-            <div className="col-lg-6 col-1">
-              <div className="logo">
-                <Link to="/">
-                  <img src="assets/img/service/logo3.png" />
-                </Link>
-              </div>
+            <div className="col-lg-6 col-2">
             </div>
 
-            <div className="col-lg-6 col-11">
+            <div className="col-lg-6 col-10">
               <div className="contactus">
                 <ul>
                   <Tooltip
@@ -76,7 +77,7 @@ function Navbar() {
                       },
                     }}
                   >
-                    <li className="m-0 p-0">
+                    <li className="m-0 p-0 py-2">
                       <button>
                         <Link to="/" className="complaint_btn">
                           Complaint Portal
@@ -179,7 +180,7 @@ function Navbar() {
                 {membershipdrop && (
                   <ul className="dropdown-active">
                     <li>
-                      <Link to="/new">Join AFMX</Link>
+                      <Link to="/join-AFMX">Join AFMX</Link>
                     </li>
                     <li>
                       <Link to="/new">Renew your Membership</Link>
@@ -318,7 +319,7 @@ function Navbar() {
                     </li>
                     <li>
                       <Link to="/federal-govrment-login">
-                        Federal Government Login
+                      Federal Government Login
                       </Link>
                     </li>
                     <li>

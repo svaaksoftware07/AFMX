@@ -4,7 +4,7 @@ import Circle from "./Circle";
 import { Link } from "react-router-dom";
 import helpingHand from "../../assets/data/helpingHand.json";
 import productData from "../../assets/data/Productdata.json";
-import serviceData from "../../assets/data/ServiceData.json";
+import serviceData from "../../assets/data/serviceDepartmentData.json";
 function Home() {
   const productData1 = productData.filter((item) => item.id < 8);
   const productData2 = productData.filter((item) => item.id > 7);

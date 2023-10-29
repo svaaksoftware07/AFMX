@@ -21,6 +21,7 @@
   grid-template-columns: repeat(7, 1fr);
 }
 
+
 .footer-logo img {
   margin-bottom: 20px;
   background-color: #839e6c;
@@ -30,6 +31,7 @@
   .footer-social-media{
     display: flex;
     justify-content: center;
+    align-items: end;
   }
   .footer-logo{
     display: flex;
@@ -55,11 +57,11 @@
 }
 
 .footer-social-media ul li a i {
-  font-size: 25px;
+  font-size: 35px;
   background: #fff;
-  padding: 5px;
+  padding: 3px;
 }
-/* 
+
 .youtube i {
   color: red;
 }
@@ -93,7 +95,7 @@
 
 .twitter i {
   color: dodgerblue;
-} */
+}
 
 
 #footer {
@@ -141,7 +143,7 @@
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #0063be;
+  background: var(--blue);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -167,7 +169,7 @@
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #0063be;
+  color: var(--blue);
 }
 
 #footer .footer-top .footer-contact p {
@@ -198,7 +200,7 @@
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #0063be;
+  color: var(--blue);
   font-size: 18px;
   line-height: 1;
 }
@@ -222,13 +224,13 @@
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #0063be;
+  color: var(--blue);
 }
 
 /* #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0063be;
+  background: var(--blue);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -267,7 +269,7 @@
 
 .copyright-bg{
   padding: 10px 0px;
-  background-color: #0063be;
+  background-color: var(--blue);
 }
 
 .copyright-bg .col-lg-6 div{

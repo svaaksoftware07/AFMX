@@ -1,4 +1,4 @@
-import LeftMenue from "../../components/leftmenu/LeftMenue"
+import LeftMenue from "../../components/leftmenu/LeftMenu"
 import industryData from "../../assets/data/IndustryData.json"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"

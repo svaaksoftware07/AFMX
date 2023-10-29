@@ -1,0 +1,95 @@
+.membership_card {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  /* transition: transform 0.5s ease-in-out; */
+}
+
+.membership_card .card {
+  display: grid;
+  place-items: center;
+  height: 450px;
+  /* width: 320px; */
+  background-color: #202a4a;
+  margin: 20px 5px;
+  /* margin-top: 30px; */
+
+  border-radius: 20px;
+  padding: 0 25px;
+  flex: 1;
+}
+.membership_card .card .plan_img {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: -30px;
+}
+.membership_card .card .plan_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.membership_card .card h1 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-top: 60px;
+}
+.membership_card .card .subscriptionName {
+  font-size: 0.8rem;
+  padding: 3px 0px;
+  border-radius: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  width: 130px;
+  background-color: #599f36;
+  position: relative;
+  font-weight: 600;
+}
+.membership_card .card .subscriptionName .white_circle {
+  border-radius: 50%;
+  background-color: white;
+  height: 19px;
+  width: 19px;
+  position: absolute;
+  right: 3px;
+}
+.membership_card .card h2 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.membership_card .card h2 span {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.membership_card .card h4 {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: -20px;
+  font-weight: 600;
+}
+.membership_card .card .benefit_list {
+  display: contents;
+}
+.membership_card .card .benefit_list p {
+  color: #a7b0d0;
+  font-size: 0.9rem;
+  border-bottom: 0.9px solid #8e8c8c;
+  margin: 0;
+}
+.membership_card .card button {
+  border: none;
+  padding: 7px 15px;
+  color: rgb(223, 227, 228);
+  background: #0d134c;
+  border-radius: 5px;
+}

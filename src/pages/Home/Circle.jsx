@@ -1,117 +1,188 @@
+import { useState } from "react";
 import "./circle.css";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 const Circle = () => {
+  const navigate=useNavigate()
+  const [angle, setAngle] = useState(null);
+  const calculateAngle = (event) => {
+    const button = event.target;
+    const rect = button.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+
+    const mouseX = event.clientX;
+    const mouseY = event.clientY;
+
+    const radians = Math.atan2(mouseY - centerY, mouseX - centerX);
+    const degrees = (radians * 180) / Math.PI;
+
+    setAngle(degrees);
+  };
+
+  const resetAngle = () => {
+    setAngle(0);
+  };
+  console.log(angle);
+
+  useEffect(()=>{
+
+  },[angle])
   return (
     <>
-<div className="row m-0 mb-3 p-0">
-  <div className="col-lg-12 col-md-12 col-12">
-    <div className="containerx container bg-white  overFlow">
-      <div className="circle pb-5">
-        <div className="circle-wraper">
-          <div className="circle-item1 circle-part">
-            <a href>
-              <img src="assets/img/service/1.png" alt="c1" />
-            </a>
+      <div className="row m-0 mb-3 p-0">
+        <div className="col-lg-12 col-md-12 col-12">
+          <div className="containerx container bg-white  overFlow">
+            <div className="circle py-3">
+              <div className="circle-main">
+                <div className="inner-circle" >
+                  <ul className="sc-fsYfxw fAFqhE" onMouseMove={calculateAngle}
+                  onMouseLeave={resetAngle}>
+                    <li className=" circle-item  circle-image-box12">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/2.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box1">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/3.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box2">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" onClick={()=>navigate("/client-login")}><img src="images/7.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box3">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/6.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box4">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/5.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box5">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/10.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box6">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/8.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-img2  circle-image-box7">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/11.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box8">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/9.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-item  circle-image-box9">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/10.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-image-box10">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/11.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                    <li className=" circle-image-box11">
+                      <div className="inner-circle-item">
+                        <button className=" circle-item-img" ><img src="images/4.png" alt="" className="img-fluid" /></button>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <div className="inner-circle2">
+
+                    <div className="circle-image">
+                      <img src="images/circle.png" className="circle-inner-img" />
+                      <img src="images/star.png" className="circle-star" />
+                      <img src="images/arrow.png" className="circle-arrow" style={{transform:`rotate(${angle}deg)`}}/>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div className="">
+                  <ul className="sc-fsYfxw fAFqhE">
+                    <li className=" circle-item-text circle-item1 ">
+                      <div className="inner-circle-item">
+                        <p className="w-100">Advanced Technology and Robotic Cleaning</p>
+
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item2">
+                      <div className="inner-circle-item">
+                        <span>Janitorial Service</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item3 ">
+                      <div className="inner-circle-item">
+                        <span>Membership</span>
+
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item4 ">
+                      <div className="inner-circle-item">
+                        <span onClick={()=>navigate("/client-login")}>Login</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item5 ">
+                      <div className="inner-circle-item">
+                        <span>Complaint</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item6 ">
+                      <div className="inner-circle-item">
+                        <span>Careers and Employment</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item7">
+                      <div className="inner-circle-item">
+                        <span>My Florida Hurricane Watch</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item8  ">
+                      <div className="inner-circle-item">
+                        <span>Price Calculator</span>
+
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item9 ">
+                      <div className="inner-circle-item">
+                        <span>Art and Gallery</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-item10  ">
+                      <div className="inner-circle-item">
+                        <span>Advertisement</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-circle-image-box10">
+                      <div className="inner-circle-item">
+                        <span>Maid X Pro</span>
+                      </div>
+                    </li>
+                    <li className=" circle-item-text circle-circle-image-box11">
+                      <div className="inner-circle-item">
+                        <span>Handyman</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className="circle-text circle-item-text1">Handyman Services</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item2 circle-part">
-            <a href>
-              <img src="assets/img/service/2.png" alt="c2" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text2">Janitorial Services</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item3 circle-part">
-            <a href>
-              <img src="assets/img/service/3.png" alt="c3" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text3">Membership</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item4 circle-part">
-            <a href>
-              <img src="assets/img/service/4.png" alt="c4" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text4">Advanced Technology &amp; Robotic Cleaning</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item5 circle-part">
-            <a href>
-              <img src="assets/img/service/5.png" alt="c5" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text5">Careers And Employment</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item6 circle-part">
-            <a href>
-              <img src="assets/img/service/6.png" alt="c6" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text6">Complaint Portal</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item7 circle-part">
-            <a href>
-              <img src="assets/img/service/7.png" alt="c7" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text7">Login</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item8 circle-part">
-            <a href>
-              <img src="assets/img/service/8.png" alt="c8" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text8">Price Calculator</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item9 circle-part">
-            <a href>
-              <img src="assets/img/service/9.png" alt="c9" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text9">Advertise with us</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item10 circle-part">
-            <a href>
-              <img src="assets/img/service/10.png" alt="c10" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text10">My Florida Hurricane Watch</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item11 circle-part">
-            <a href>
-              <img src="assets/img/service/1.png" alt="c11" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text11">Art And Gallery</p>
-        </div>
-        <div className="circle-wraper">
-          <div className="circle-item12 circle-part">
-            <a href>
-              <img src="assets/img/service/12.png" alt="c12" />
-            </a>
-          </div>
-          <p className="circle-text circle-item-text12">Maid X Professional Services</p>
-        </div>
-        <div className="compass">
-          <img id="pointer" src="assets/img/service/pointer.png" alt="compass" />
-          <img src="assets/img/service/ni2.png" alt="compass" />
-          <img src="assets/img/service/ni3.png" alt="compass" />
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
 
     </>
   );

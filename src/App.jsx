@@ -11,10 +11,12 @@ import { ToastContainer } from 'react-toastify';
 import HelpingHand from "./pages/helpingHand/HelpingHand"
 import ProductCategory from "./pages/productCategory/ProductCategory"
 import Industry from "./pages/Industry/Industry"
-import ServiceCategory from "./pages/serviceCategory/ServiceCategory"
+import ServiceCategory from "./pages/serviceDepartment/ServiceCategory"
 import Forget from "./pages/Login/Forget"
 import ResetPassword from "./pages/Login/ResetPassword"
 import TermsConditions from "./pages/terms&conditions/TermsConditions"
+import Services from "./pages/services/Services"
+import JoinAfmx from "./pages/Membership/JoinAfmx"
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -56,17 +58,18 @@ function App() {
             <Route path="/new" element={<CommingSoon />} />
             <Route path="/employee-login" element={<Login loginType={"Employee Login"} />} />
             <Route path="/client-login" element={<Login loginType={"Client Login"} />} />
-            <Route path="/federal-govrment-login" element={<Login loginType={"Fedral Goverment Login"} />} />
+            <Route path="/federal-govrment-login" element={<Login loginType={"Federal Government Login"} />} />
             <Route path="/admin-login" element={<Login loginType={"Admin Login"} />} />
             <Route path="/create-account" element={<CreateAccount />} />
             <Route path="/helping-hand/:id" element={<HelpingHand />} />
             <Route path="/product/:id" element={<ProductCategory />} />
             <Route path="/industry/:id" element={<Industry />} />
-            <Route path="/service/:id" element={<ServiceCategory />} />
+            <Route path="/service/:id" element={<ServiceCategory/>}/>
             <Route path="/forget-password" element={<Forget />} />
             <Route path="/reset-password" element={<ResetPassword />} />
             <Route path="/terms-condition/:id" element={<TermsConditions />} />
-
+            <Route path="/services/:id" element={<Services/>} />
+            <Route path="/join-AFMX" element={<JoinAfmx/>} />
 
           </Routes>
         </div>

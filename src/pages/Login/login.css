@@ -9,7 +9,7 @@
     padding: 5rem;
     width: 650px;
     border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
     background-color: white;
     
 }
@@ -48,4 +48,19 @@
     padding: 25px !important;
     padding-top: 40px !important;
     }
+}
+
+/* .links-login a{
+display: block;
+   text-align: center;
+   margin-top: 8px;
+} */
+
+.forget-login {
+    margin-top: 10px;
+text-align: end;
+}
+.links-login p{
+    margin-top: 15px;
+   text-align: center;
 }

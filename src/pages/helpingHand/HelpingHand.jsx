@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import "./helpingHand.css"
 import helpingHand from "../../assets/data/helpingHand.json"
-import LeftMenue from "../../components/leftmenu/LeftMenue";
+import LeftMenue from "../../components/leftmenu/LeftMenu";
 
 function HelpingHand() {
   const { id } = useParams();

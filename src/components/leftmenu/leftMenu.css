@@ -5,7 +5,7 @@
 
 .left-menu-heading {
     text-transform:capitalize;
-    background-color: #0063be;
+    background-color: var(--blue);
     padding: 10px 15px;
     color: white;
     font-size: 18px;
@@ -33,7 +33,7 @@
     font-weight: 500;
 }
 .left-menue-list  li a:hover{
-    color:#0063be
+    color:var(--blue)
     }
 @media screen and (max-width:768px) {
     .left-menue-main {

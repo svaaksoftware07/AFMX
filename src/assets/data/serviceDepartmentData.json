@@ -1,0 +1,686 @@
+[
+  {
+    "id": "1",
+    "name": "Handyman solutions department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Assembly department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/assemblyDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/assemblyDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/assemblyDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/assemblyDepartment/4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Attic installation and repair department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/atticInstallationAndRepairDepartment/6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Carpentry installation and repair department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/1.png"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/2.png"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/3.png"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/4.png"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/5.png"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/6.png"
+      },
+      {
+        "id": "7",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/7.png"
+      },
+      {
+        "id": "8",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/8.png"
+      },
+      {
+        "id": "9",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/9.png"
+      },
+      {
+        "id": "10",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/10.png"
+      },
+      {
+        "id": "11",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/11.png"
+      },
+      {
+        "id": "12",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/12.png"
+      },
+      {
+        "id": "13",
+        "img": "./images/serviceDepartments/carpentryInstallationAndRepairDepartment/13.png "
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Floor installation and repair department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }      
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Remodeling department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Handyman department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Junk removal and hauling department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Lawn maintenance department",
+    "data": [
+      {
+        "id": "",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Flower and garden bed maintenance department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Landscape design and installation",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Grounds maintenance department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Lawn care department",
+    "data": [
+      {
+        "id": "",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Tree and shrub maintenance department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Fertilization, weed and pest department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Porter and matron department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Janitorial department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/6.jpg"
+      },
+      {
+        "id": "7",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/7.jpg"
+      },
+      {
+        "id": "8",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/8.jpg"
+      },
+      {
+        "id": "9",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/9.jpg"
+      },
+      {
+        "id": "10",
+        "img": "./images/serviceDepartments/janitorialServiceDepartment/10.jpg"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Window cleaning department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/windowCleaningDepartment/6.jpg"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Pressure washing department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/6.jpg"
+      },
+      {
+        "id": "7",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/7.jpg"
+      },
+      {
+        "id": "8",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/8.jpg"
+      },
+      {
+        "id": "9",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/9.jpg"
+      },
+      {
+        "id": "10",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/10.jpg"
+      },
+      {
+        "id": "11",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/11.jpg"
+      },
+      {
+        "id": "12",
+        "img": "./images/serviceDepartments/pressureWashingDepartment/12.jpg"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Specialty cleaning department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/specialtyCleaningDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/specialtyCleaningDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/specialtyCleaningDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/specialtyCleaningDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/specialtyCleaningDepartment/5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Steel and polishing department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/6.jpg"
+      },
+      {
+        "id": "7",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/7.jpg"
+      },
+      {
+        "id": "8",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/8.jpg"
+      },
+      {
+        "id": "9",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/9.jpg"
+      },
+      {
+        "id": "10",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/10.jpg"
+      },
+      {
+        "id": "11",
+        "img": "./images/serviceDepartments/steelAndPolishingDepartment/11.jpg"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Garbage/trash can cleaning",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Exclusive services department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Infectious disease cleaning department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/infectiousDiseaseCleaningDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/infectiousDiseaseCleaningDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/infectiousDiseaseCleaningDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/infectiousDiseaseCleaningDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/infectiousDiseaseCleaningDepartment/5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Florida disaster recovery department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/floridaDisasterRecoveryDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/floridaDisasterRecoveryDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/floridaDisasterRecoveryDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/floridaDisasterRecoveryDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/floridaDisasterRecoveryDepartment/5.jpg"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Valet trash pickup department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Parking lot cleaning department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/parkingLotCleaningDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/parkingLotCleaningDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/parkingLotCleaningDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/parkingLotCleaningDepartment/4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Floor service department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/floorServiceDepartment/1.jpg"
+      },
+      {
+        "id": "2",
+        "img": "./images/serviceDepartments/floorServiceDepartment/2.jpg"
+      },
+      {
+        "id": "3",
+        "img": "./images/serviceDepartments/floorServiceDepartment/3.jpg"
+      },
+      {
+        "id": "4",
+        "img": "./images/serviceDepartments/floorServiceDepartment/4.jpg"
+      },
+      {
+        "id": "5",
+        "img": "./images/serviceDepartments/floorServiceDepartment/5.jpg"
+      },
+      {
+        "id": "6",
+        "img": "./images/serviceDepartments/floorServiceDepartment/6.jpg"
+      },
+      {
+        "id": "7",
+        "img": "./images/serviceDepartments/floorServiceDepartment/7.jpg"
+      },
+      {
+        "id": "8",
+        "img": "./images/serviceDepartments/floorServiceDepartment/8.jpg"
+      },
+      {
+        "id": "9",
+        "img": "./images/serviceDepartments/floorServiceDepartment/9.jpg"
+      },
+      {
+        "id": "10",
+        "img": "./images/serviceDepartments/floorServiceDepartment/10.jpg"
+      },
+      {
+        "id": "11",
+        "img": "./images/serviceDepartments/floorServiceDepartment/11.jpg"
+      },
+      {
+        "id": "12",
+        "img": "./images/serviceDepartments/floorServiceDepartment/12.jpg"
+      },
+      {
+        "id": "13",
+        "img": "./images/serviceDepartments/floorServiceDepartment/13.jpg"
+      },
+      {
+        "id": "14",
+        "img": "./images/serviceDepartments/floorServiceDepartment/14.jpg"
+      },
+      {
+        "id": "15",
+        "img": "./images/serviceDepartments/floorServiceDepartment/15.jpg"
+      },
+      {
+        "id": "16",
+        "img": "./images/serviceDepartments/floorServiceDepartment/16.jpg"
+      },
+      {
+        "id": "17",
+        "img": "./images/serviceDepartments/floorServiceDepartment/17.jpg"
+      },
+      {
+        "id": "18",
+        "img": "./images/serviceDepartments/floorServiceDepartment/18.jpg"
+      },
+      {
+        "id": "19",
+        "img": "./images/serviceDepartments/floorServiceDepartment/19.jpg"
+      },
+      {
+        "id": "20",
+        "img": "./images/serviceDepartments/floorServiceDepartment/20.jpg"
+      },
+      {
+        "id": "21",
+        "img": "./images/serviceDepartments/floorServiceDepartment/21.jpg"
+      },
+      {
+        "id": "22",
+        "img": "./images/serviceDepartments/floorServiceDepartment/22.jpg"
+      },
+      {
+        "id": "23",
+        "img": "./images/serviceDepartments/floorServiceDepartment/23.jpg"
+      },
+      {
+        "id": "24",
+        "img": "./images/serviceDepartments/floorServiceDepartment/24.jpg"
+      },
+      {
+        "id": "25",
+        "img": "./images/serviceDepartments/floorServiceDepartment/25.jpg"
+      },
+      {
+        "id": "26",
+        "img": "./images/serviceDepartments/floorServiceDepartment/26.jpg"
+      },
+      {
+        "id": "27",
+        "img": "./images/serviceDepartments/floorServiceDepartment/27.jpg"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Exterior painting department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Wallpaper department",
+    "data": [
+      {
+        "id": "1",
+        "img": "./images/serviceDepartments/questionMark.jpeg"
+      }
+    ]
+  }
+]

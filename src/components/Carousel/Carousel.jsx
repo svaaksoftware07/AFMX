@@ -26,34 +26,34 @@ const Slider = () => {
                 {/* The slideshow/carousel */}
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src="images/Banner/chemicalShoppingCenterBanner.webp" alt/>
+                    <img src="images/Banner/chemicalShoppingCenterBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/constructionCleaningBanner.webp"  alt />
+                    <img src="images/Banner/constructionCleaningBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/floorCleaningBanner.webp"  alt />
+                    <img src="images/Banner/floorCleaningBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/geoFencingBanner.webp"  alt />
+                    <img src="images/Banner/geoFencingBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/handymanServicesBanner.webp"  alt />
+                    <img src="images/Banner/handymanServicesBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/janitorialCleaningServicesBanner.webp"  alt />
+                    <img src="images/Banner/janitorialCleaningServicesBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/maidXBanner.webp"  alt />
+                    <img src="images/Banner/maidXBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/mebershipBanner.webp"  alt />
+                    <img src="images/Banner/mebershipBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/priceCalculatorBanner.webp"  alt />
+                    <img src="images/Banner/priceCalculatorBanner.webp" alt />
                   </div>
                   <div className="carousel-item">
-                    <img src="images/Banner/roboticCleaningBanner.webp"  alt />
+                    <img src="images/Banner/roboticCleaningBanner.webp" alt />
                   </div>
                 </div>
                 {/* Left and right controls/icons */}
@@ -66,31 +66,31 @@ const Slider = () => {
               </div>
             </div>
             <div className="col-lg-3">
-                    {user ? (
-                        <div className="login-button">
-                          <div className="profile_pic">
-                            {user.oldUser.firstname.charAt(0).toUpperCase()}
-                          </div>
-                          <h3 className="profile_name">Welcome, {user.oldUser.firstname}!</h3>
-                          <Link to="/">View Profile</Link>
-                          <button className="signout_btn" onClick={handleSignOut}>
-                            Sign Out
-                          </button>
-                        </div>
-                      ) : (
-                        <div className="login-button">
-                          <Link to="/client-login">Login</Link>
-                          <Link to="/">Forgot Password</Link>
-                          <Link to="/create-account">Create Account</Link>
-                        </div>
-                      )}
+              {user ? (
+                <div className="login-button">
+                  <div className="profile_pic">
+                    {user.oldUser.firstname.charAt(0).toUpperCase()}
+                  </div>
+                  <h3 className="profile_name">Welcome, {user.oldUser.firstname}!</h3>
+                  <Link to="/">View Profile</Link>
+                  <button className="signout_btn" onClick={handleSignOut}>
+                    Sign Out
+                  </button>
+                </div>
+              ) : (
+                <div className="login-button">
+                  <Link to="/client-login">Login</Link>
+                  <Link to="/forget-password">Forgot Password</Link>
+                  <Link to="/create-account">Create Account</Link>
+                </div>
+              )}
               <div className="banner-ad">
-                <a href>
+                <Link to="/create-account" >
                   <video width height autoPlay loop muted>
                     <source src="assets/img/ad-video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

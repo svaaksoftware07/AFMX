@@ -1,0 +1,332 @@
+[
+    {
+        "id": "1",
+        "name": "Janitorial Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Floor Cleaning Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Commercial Cleaning Service",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Professional Office Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Keyboard Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Flu Season Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Construction Cleaning Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Valet Trash Pickup",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Garbage Bin Cleaning Service",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "Flood Response",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Carpet Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Floor Mat Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Floor Mat Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Tile restoration Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Floor Resurfacing",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Marble and Terrazzo Floor Care",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "name": "Complete Floor Stripping and waxing",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "name": "Complete Floor Stripping and waxing",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "18",
+        "name": "Grout removal",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "19",
+        "name": "Handyman services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "20",
+        "name": "Power Washing Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "name": "Solar panel Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "22",
+        "name": "Window Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "23",
+        "name": "Lawn Maintenance and Landscaping",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "24",
+        "name": "Tree trimming services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "25",
+        "name": "Event Cleaning",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "26",
+        "name": "Restroom Cleaning Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "27",
+        "name": "Supply Stock services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "28",
+        "name": "Day Porter Services",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      },
+      {
+        "id": "29",
+        "name": "Apartment turnover",
+        "serviceImage": "./images/services-image/janitorialServices.png",
+
+        "data": [
+          {
+            "details": ""
+          }
+        ]
+      }
+]

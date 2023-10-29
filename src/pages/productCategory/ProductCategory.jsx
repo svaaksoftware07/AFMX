@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import LeftMenue from "../../components/leftmenu/LeftMenue";
+import LeftMenu from "../../components/leftmenu/LeftMenu";
 import ProductCard from "../../components/productCard/ProductCard"
 import productData from "../../assets/data/Productdata.json"
 import "./product.css"
@@ -14,7 +14,7 @@ function ProductCategory() {
             <div className="container p-0 my-3">
                 <div className="row m-0 p-0 ">
                     <div className="col-lg-3 col-md-3 col-0 p-0">
-                        <LeftMenue type="shopping center" data={productData} url="/product" />
+                        <LeftMenu type="shopping center" data={productData} url="/product" />
 
                     </div>
                     <div className="col-lg-9 col-md-9 col-12 bg-white  p-3">

@@ -4,7 +4,8 @@ import "./footer.css"
 import data from "../../assets/data/terms&Conditions.json"
 
 function Footer() {
-
+  const termsAndCData1 = data.filter((item) => item.id <= data.length / 2 + 2);
+  const termsAndCData2 = data.filter((item) => item.id > data.length / 2 + 2);
   return (
 
     <>
@@ -13,51 +14,21 @@ function Footer() {
           <div className="footer-links">
             <h4>Terms and Policies</h4>
             <ul>
-             
-             {data.map((item)=>( <li key={item.id}>
+
+              {termsAndCData1.map((item) => (<li key={item.id}>
                 <i className="bx bx-chevron-right" />
                 <Link to={`/terms-condition/${item.id}`}>{item.name}</Link>
               </li>))}
-              
+
             </ul>
           </div>
           <div className="footer-links">
             <h4> Terms &amp; Policies</h4>
             <ul>
-              <li>
+              {termsAndCData2.map((item) => (<li key={item.id}>
                 <i className="bx bx-chevron-right" />
-                <a href="#/new">Whistle Blower Policy</a>
-              </li>
-            <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Governing Laws and Regulations Terms of Sale</a>
-              </li>
-             
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Shipping and Returns Policies</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Content Licensing and Attribution</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Subcontractor and Employee Laws and Policies</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">Plagiarism and Copyright Laws</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new">The Americans with Disabilities Act (ADA)</a>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right" />
-                <a href="#/new"> Do Not Sell My Personal Information</a>
-              </li>
-              
+                <Link to={`/terms-condition/${item.id}`}>{item.name}</Link>
+              </li>))}
             </ul>
           </div>
           <div className="footer-links">
@@ -96,7 +67,7 @@ function Footer() {
                 <i className="bx bx-chevron-right" />
                 <a href="#/new">National Accounts</a>
               </li>
-              
+
               <li>
                 <i className="bx bx-chevron-right" />
                 <a href="#/new">Partners</a>
@@ -156,7 +127,7 @@ function Footer() {
           <div className="footer-links">
             <h4>Membership Account Help</h4>
             <ul>
-            <li>
+              <li>
                 <i className="bx bx-chevron-right" />
                 <a href="#/new">Join AFMX</a>
               </li>
@@ -182,30 +153,24 @@ function Footer() {
               </li>
             </ul>
           </div>
-         
+
         </div>
 
-        
-      </footer>
 
-      <div className="copyright-bg">
-       <div className="container">
-         <div className="row align-items-center">
-            <div className="col-lg-2">
+      </footer>
+      <div className="row m-0 p-0 align-items-end mb-3">
+      <div className="col-lg-4 col-12">
               <div className="footer-logo">
-                <img src="assets/img/service/logo3.png"/>  
-              </div> 
-            </div> 
-             <div className="col-lg-6">
-             <div>© Copyright <strong>
-            <span>AFMX Services</span>
-          </strong>. All Rights Reserved </div>
-             </div>
-             <div className="col-lg-4">
-             
-              <div className="footer-social-media">
+              <Link to="/">
+                <img src="images/logo-blue.png"  className="p-0 m-0"/>
+              </Link>
+              </div>
+            </div>
+            <div className="col-lg-8 col-12">
+            <div className="footer-social-media ">
                 <ul>
-                  <li className="youtube"><a href=""> <i className="fab fa-youtube"></i></a></li>  
+                  <li className="youtube"><a href=""> <i className="fab fa-youtube"></i></a></li> 
+                  <li className="discord"><a href=""> <i className="fab fa-discord"></i></a></li>  
                   <li className="tiktok"><a href=""> <i className="fab fa-tiktok"></i></a></li>  
                   <li className="snapchat"><a href=""> <i className="fab fa-snapchat"></i></a></li>  
                   <li className="skype"><a href=""> <i className="fab fa-skype"></i></a></li>  
@@ -216,7 +181,17 @@ function Footer() {
                   <li className="linkedin"><a href=""> <i className="fab fa-linkedin"></i></a></li>  
                 </ul>   
               </div>
-             </div>
+            </div>
+      </div>
+
+      <div className="copyright-bg">
+        <div className="container">
+          <div className="row text-center text-white">
+            <div className="col-lg-12">
+              <div>© Copyright <strong>
+                <span>AFMX Services</span>
+              </strong>. All Rights Reserved </div>
+            </div>
           </div>
         </div>
       </div>
