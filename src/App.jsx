@@ -18,6 +18,7 @@ import TermsConditions from "./pages/terms&conditions/TermsConditions"
 import Services from "./pages/services/Services"
 import JoinAfmx from "./pages/Membership/JoinAfmx"
 
+
 function App() {
   const [showButton, setShowButton] = useState(false);
 
@@ -70,6 +71,8 @@ function App() {
             <Route path="/terms-condition/:id" element={<TermsConditions />} />
             <Route path="/services/:id" element={<Services/>} />
             <Route path="/join-AFMX" element={<JoinAfmx/>} />
+            <Route path="/service-list" element={<Services/>} />
+
 
           </Routes>
         </div>

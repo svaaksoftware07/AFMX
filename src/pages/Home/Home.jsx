@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import helpingHand from "../../assets/data/helpingHand.json";
 import productData from "../../assets/data/Productdata.json";
 import serviceData from "../../assets/data/serviceDepartmentData.json";
+import WatchWhether from "./WatchWhether";
 function Home() {
   const productData1 = productData.filter((item) => item.id < 8);
   const productData2 = productData.filter((item) => item.id > 7);
@@ -273,8 +274,9 @@ function Home() {
                 <div className="memebership-list">
                   <h2>MY FLORIDA HURRICANE WATCH WEATHER</h2>
                   <div className="membership-lis-image">
-                    <img src="assets/img/service/map.jpg" />
-                    <img src="assets/img/service/calender.jpg" />
+                    {/* <img src="assets/img/service/map.jpg" />
+                    <img src="assets/img/service/calender.jpg" /> */}
+                    <WatchWhether/>
                   </div>
                 </div>
               </div>
@@ -335,25 +337,25 @@ function Home() {
                   <h2>PARTNER WITH US</h2>
                   <ul className>
                     <li>
-                      <a href>Affiliates</a>
+                      <Link to="/client-login">Affiliates</Link>
                     </li>
                     <li>
-                      <a href>Investors</a>
+                      <Link to="/client-login">Investors</Link>
                     </li>
                     <li>
-                      <a href>Volunteer Cleaning</a>
+                      <Link to="/client-login">Volunteer Cleaning</Link>
                     </li>
                     <li>
-                      <a href>Global Alliance</a>
+                      <Link to="/client-login">Global Alliance</Link>
                     </li>
                     <li>
-                      <a href>Subcontractors</a>
+                      <Link to="/client-login">Subcontractors</Link>
                     </li>
                     <li>
-                      <a href>Advertise with us</a>
+                      <Link to="/client-login">Advertise with us</Link>
                     </li>
                     <li>
-                      <a href>Neighbourhood Cleaning</a>
+                      <Link to="/client-login">Neighbourhood Cleaning</Link>
                     </li>
                   </ul>
                   <div className="img-box">

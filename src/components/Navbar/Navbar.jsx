@@ -42,7 +42,7 @@ function Navbar() {
             <div className="col-lg-12">
             <div className="logo">
                 <Link to="/">
-                  <img src="images/logo-blue.png" />
+                  <img src="images/logo-red.png" />
                 </Link>
               </div>
               <div className="ad">
@@ -209,7 +209,7 @@ function Navbar() {
                     },
                   }}
                 >
-                  <Link to="/new" className="nav-link ">
+                  <Link to="/service-list" className="nav-link ">
                     Services
                   </Link>
                 </Tooltip>
@@ -299,7 +299,7 @@ function Navbar() {
                     },
                   }}
                 >
-                  <Link to="/new" className="nav-link ">
+                  <Link to="/create-account" className="nav-link ">
                     Careers & Employment
                   </Link>
                 </Tooltip>

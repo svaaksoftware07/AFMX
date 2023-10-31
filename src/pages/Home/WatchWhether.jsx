@@ -1,43 +1,14 @@
-import axios from "axios";
-import { useEffect } from "react";
-import { useState } from "react";
-
 
 function WatchWhether() {
-    const [location, setLocation] = useState(null);
-
-  useEffect(() => {
-    // // Check if the Geolocation API is available in the browser
-    // if ("geolocation" in navigator) {
-    //   navigator.geolocation.getCurrentPosition(
-    //     (position) => {
-    //       // Access the latitude and longitude from the position object
-    //       const { latitude, longitude } = position.coords;
-    //       setLocation({ latitude, longitude });
-    //     },
-    //     (error) => {
-    //       console.error("Error getting location:", error.message);
-    //     }
-    //   );
-    // } else {
-    //   console.error("Geolocation is not available in this browser.");
-    // }
-axios.get("https://www.visualcrossing.com/weather-history/40.7128,-74.0060/us/2021-06-01").then((res)=>setLocation(res.data))
-  }, []);
+  <script async src="https://app2.weatherwidget.org/js/?id=ww_1e2f334595f48"></script>
 
   return (
-    <div>
-      {/* {location ? (
-        <div>
-          <p>Latitude: {location.latitude}</p>
-          <p>Longitude: {location.longitude}</p>
-        </div>
-      ) : (
-        <p>Getting your location...</p>
-      )} */}
+    <div className="d-flex justify-content-center w-100">
+      <div className="elfsight-app-c632a406-c3d5-4ea3-bcfe-87e93d7f1b5c" data-elfsight-app-lazy style={{display:"flex"}}></div>
+      {/* <div id="ww_1e2f334595f48" v="1.3" loc="id" a="{&quot;t&quot;:&quot;horizontal&quot;,&quot;lang&quot;:&quot;en&quot;,&quot;sl_lpl&quot;:1,&quot;ids&quot;:[],&quot;font&quot;:&quot;Arial&quot;,&quot;sl_ics&quot;:&quot;one_a&quot;,&quot;sl_sot&quot;:&quot;celsius&quot;,&quot;cl_bkg&quot;:&quot;image&quot;,&quot;cl_font&quot;:&quot;#FFFFFF&quot;,&quot;cl_cloud&quot;:&quot;#FFFFFF&quot;,&quot;cl_persp&quot;:&quot;#81D4FA&quot;,&quot;cl_sun&quot;:&quot;#FFC107&quot;,&quot;cl_moon&quot;:&quot;#FFC107&quot;,&quot;cl_thund&quot;:&quot;#FF5722&quot;}">More forecasts: <a href="https://oneweather.org/fr/paris/25_days/" id="ww_1e2f334595f48_u" target="_blank" rel="noreferrer">Prévisions météo 25 jours</a></div> */}
 
-      {location}
-    </div>
+      
+ </div>
   );
 }
 
