@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom"
 import "./footer.css"
 import data from "../../assets/data/terms&Conditions.json"
+import { RiTwitterXLine } from "react-icons/ri";
 
 function Footer() {
   const termsAndCData1 = data.filter((item) => item.id <= data.length / 2 + 2);
@@ -159,29 +160,29 @@ function Footer() {
 
       </footer>
       <div className="row m-0 p-0 align-items-end mb-3">
-      <div className="col-lg-4 col-12">
-              <div className="footer-logo">
-              <Link to="/">
-                <img src="images/logo-blue.png"  className="p-0 m-0"/>
-              </Link>
-              </div>
-            </div>
-            <div className="col-lg-8 col-12">
-            <div className="footer-social-media ">
-                <ul>
-                  <li className="youtube"><a href=""> <i className="fab fa-youtube"></i></a></li> 
-                  <li className="discord"><a href=""> <i className="fab fa-discord"></i></a></li>  
-                  <li className="tiktok"><a href=""> <i className="fab fa-tiktok"></i></a></li>  
-                  <li className="snapchat"><a href=""> <i className="fab fa-snapchat"></i></a></li>  
-                  <li className="skype"><a href=""> <i className="fab fa-skype"></i></a></li>  
-                  <li className="pinterest"><a href=""> <i className="fab fa-pinterest"></i></a></li>  
-                  <li className="instagram"><a href=""> <i className="fab fa-instagram"></i></a></li>  
-                  <li className="facebook"><a href=""> <i className="fab fa-facebook"></i></a></li>  
-                  <li className="twitter"><a href=""> <i className="fab fa-twitter"></i></a></li>  
-                  <li className="linkedin"><a href=""> <i className="fab fa-linkedin"></i></a></li>  
-                </ul>   
-              </div>
-            </div>
+        <div className="col-lg-4 col-12">
+          <div className="footer-logo">
+            <Link to="/">
+              <img src="images/logo-red.png" className="p-0 m-0" />
+            </Link>
+          </div>
+        </div>
+        <div className="col-lg-8 col-12">
+          <div className="footer-social-media ">
+            <ul>
+              <li className="youtube"><a href=""> <i className="fab fa-youtube"></i></a></li>
+              <li className="discord"><a href=""> <i className="fab fa-discord"></i></a></li>
+              <li className="tiktok"><a href=""> <i className="fab fa-tiktok"></i></a></li>
+              <li className="snapchat"><a href=""> <i className="fab fa-snapchat"></i></a></li>
+              <li className="skype"><a href=""> <i className="fab fa-skype"></i></a></li>
+              <li className="pinterest"><a href=""> <i className="fab fa-pinterest"></i></a></li>
+              <li className="instagram"><a href=""> <i className="fab fa-instagram"></i></a></li>
+              <li className="facebook"><a href=""> <i className="fab fa-facebook"></i></a></li>
+              <li className="twitter"><a href=""><RiTwitterXLine /></a></li>
+              <li className="linkedin"><a href=""> <i className="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div className="copyright-bg">

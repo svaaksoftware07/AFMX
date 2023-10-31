@@ -12,7 +12,7 @@ export default function TermsConditions() {
         <div className="row m-0 p-0 ">
           <div className="col-lg-3 col-md-3 col-0 p-0 service_menu">
             <LeftMenu
-              type="Service Department"
+              type="Terms and Conditions"
               data={termsData}
               url="/terms-condition"
             />

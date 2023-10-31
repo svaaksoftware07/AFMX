@@ -4,7 +4,7 @@
         "name": "Universities",
         "logo": "./images/industry/logo-color.png",
         "contact_with": {
-            "name":"Rob, Voice Precident",
+            "name":"Rob, CEO",
             "contact":"9123456789"
         },
         "type": "Education",
@@ -29,7 +29,7 @@
         "name": "Events",
         "logo": "./images/industry/logo-black.png",
         "contact_with": {
-            "name":"Rob, Voice Precident",
+            "name":"Rob, CEO",
             "contact":"9123456789"
         },
         "type": "Event Management",
@@ -50,7 +50,7 @@
         "name": "Construction Cleaning",
         "logo": "./images/industry/logo-white.png",
         "contact_with": {
-            "name":"Rob, Voice Precident/CEO",
+            "name":"Rob, CEO/CEO",
             "contact":"9123456789"
         },
         "type": "Construction",

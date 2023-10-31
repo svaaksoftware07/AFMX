@@ -1,14 +1,25 @@
 import "./style.css";
 import MembershipPlan from "../../assets/data/membership/membershipPlan.json";
 import MembershipCard from "./MembershipCard";
-// import { EffectCoverflow } from "swiper";
 
 const JoinAfmx = () => {
   return (
     <>
-      <div className="container">
-        <div className="membership_card">
-          <MembershipCard data={MembershipPlan} />
+      <div className="container slider-body">
+        <div className="membership_container">
+          <input
+            type="radio"
+            name="slider"
+            className="d-none"
+            id="s1"
+            checked
+          />
+          <input type="radio" name="slider" className="d-none" id="s2" />
+          <input type="radio" name="slider" className="d-none" id="s3" />
+          <input type="radio" name="slider" className="d-none" id="s4" />
+          <div className="membership_cards">
+            <MembershipCard data={MembershipPlan} />
+          </div>
         </div>
       </div>
     </>
